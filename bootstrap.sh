@@ -7,7 +7,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 bash miniconda.sh -b -p $MINICONDA_PATH && rm miniconda.sh
 PATH="${MINICONDA_PATH}/bin:$PATH"
 #conda init bash
-activate
+conda activate
 conda init bash
 source $HOME/.bashrc
 #conda update -y -n base -c defaults conda

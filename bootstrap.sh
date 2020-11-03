@@ -9,14 +9,14 @@ bash miniconda.sh -b -p $MINICONDA_PATH && rm miniconda.sh
 PATH="${MINICONDA_PATH}/bin:$PATH"
 #conda init bash
 conda init bash
-exec bash
+#exec bash
 #conda activate
 source $HOME/.bashrc
 conda update -y -n base -c defaults conda
 
 #exec bash
-conda create -y -n narupa-dev "python>3.6"
-conda activate narupa-dev
+#conda create -y -n narupa-dev "python>3.6"
+#conda activate narupa-dev
 conda install -y -c omnia -c conda-forge -c irl narupa-server
 git clone https://gitlab.com/intangiblerealities/narupa-applications/isness.git
 cd isness

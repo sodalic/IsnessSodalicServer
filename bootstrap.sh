@@ -1,3 +1,4 @@
+#!/bin/bash
 set -eo pipefail
 
 NARUPA_PORT=38801

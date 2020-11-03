@@ -15,6 +15,6 @@ conda create -y -n narupa-dev "python>3.6"
 activate narupa-dev
 conda install -y -c omnia -c conda-forge -c irl narupa-server
 git clone https://gitlab.com/intangiblerealities/narupa-applications/isness.git
-cd ./isness
+cd isness
 git checkout master  
 narupa-omm-ase ./40-ALA.narupa2.xml -w

@@ -10,7 +10,7 @@ PATH="${MINICONDA_PATH}/bin:$PATH"
 #conda init bash
 conda init bash
 #exec bash
-#conda activate
+conda activate
 source $HOME/.bashrc
 conda update -y -n base -c defaults conda
 

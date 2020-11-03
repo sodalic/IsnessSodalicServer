@@ -10,7 +10,7 @@ conda init bash
 source $HOME/.bashrc
 #conda update -y -n base -c defaults conda
 
-exec bash
+#exec bash
 conda create -y -n narupa-dev "python>3.6"
 conda activate narupa-dev
 conda install -y -c omnia -c conda-forge -c irl narupa-server

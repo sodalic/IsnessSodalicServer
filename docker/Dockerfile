@@ -18,20 +18,9 @@ RUN conda install -y -c omnia -c conda-forge -c irl narupa-server
 RUN pip install --ignore-installed grpcio
 ENV PYTHON=$MINICONDA_PATH/bin/python
 RUN export PATH=$MINICONDA_PATH/bin:$PATH
-
-#RUN git clone https://gitlab.com/intangiblerealities/narupa-applications/isness.git
-
 RUN git clone --branch master https://gitlab.com/intangiblerealities/narupa-applications/isness.git
-#RUN cd isness
-#RUN ls
-#RUN git checkout master  
 CMD [ "narupa-omm-ase",  "./isness/40-ALA.narupa2.xml",  "-w"]
 # ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
-
-#!/bin/bash --login
-#set -e
-#conda activate $ENV_PREFIX
-#exec "$@"
 
 #docker image build \
 #  --build-arg username=$joe \

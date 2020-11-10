@@ -1,0 +1,10 @@
+grpcio
+werkzeug
+requests
+flask
+flask-cors
+Flask_APScheduler
+gunicorn
+python-dotenv
+firebase-admin
+google-api-python-client

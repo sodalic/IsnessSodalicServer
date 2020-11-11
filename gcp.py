@@ -24,8 +24,8 @@ def get_zone_for_region(region):
         'europe-west4': 'b',            # Netherlands
         'southamerica-east1': 'c',      # Sao Paolo
         'us-central1': 'a',             # Iowa
-        'us-east1': 'c',                # South Carolina
-        'us-east4': 'b',                # North Virginia
+        'us-east1': 'b',                # South Carolina
+        'us-east4': 'c',                # North Virginia
         'us-west1': 'a',                # Oregon
         'us-west2': 'b'                 # Los Angeles
     }

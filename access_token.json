@@ -1,0 +1,9 @@
+{
+    "iss":"anuma3544-an77-dev",
+    "exp":1636683847,
+    "vxa":"mute",
+    "vxi":123456,
+    "sub":"sip:.blindmelon-AppName-dev.jerky.@tla.vivox.com",
+    "f":"sip:.blindmelon-AppName-dev.beef.@tla.vivox.com",
+    "t":"sip:confctl-g-blindmelon-AppName-dev.testchannel@tla.vivox.com"
+}

@@ -1,1 +1,1 @@
-gcloud beta compute instances create anuma-cmd --zone us-east1-b --source-machine-image projects/dauntless-graph-293915/global/machineImages/nvidia-gpu-sc-2 --metadata-from-file startup-script=startup.sh
+gcloud beta compute instances create anuma-cmd --zone us-east1-b --source-machine-image projects/dauntless-graph-293915/global/machineImages/nvidia-gpu-sc-2 --metadata-from-file startup-script=bootstrap.sh

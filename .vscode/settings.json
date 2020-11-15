@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "/opt/anaconda3/envs/gcp/bin/python",
-    "python.dataScience.jupyterServerURI": "local"
+    "jupyter.jupyterServerType": "local",
+    "python.condaPath": "\"python.pythonPath\": \"ProgramData\\Anaconda3\\python.exe\""
 }
